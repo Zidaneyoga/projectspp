@@ -13,13 +13,14 @@ body {
 }
 
 .login-form{
-    width: 30%;
-    height: 80%;
-    padding: 30px;
+    width: 700px;
+    height: 800px;
+    padding:70px;
     background-color: #1a2226 !important;
     border-radius: 10px !important;
 }
 
+input[type="text"],
 input[type="email"],
 input[type="password"]{
     background: #1a2226;
@@ -30,6 +31,7 @@ input[type="password"]{
     margin-top: 10;
 }
 
+input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus{
     outline: none;
