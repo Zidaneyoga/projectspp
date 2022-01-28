@@ -9,22 +9,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue;
+    color: #48e248;
 }
 
 .login-form{
     width: 30%;
     height: 80%;
     padding: 30px;
-    background-color: #fff !important;
+    background-color: #1a2226 !important;
     border-radius: 10px !important;
 }
 
 input[type="email"],
 input[type="password"]{
-    background: #fff;
+    background: #1a2226;
     color: #fff;
-    border: 2px solid lightblue;
+    border: 2px solid #00ff00;
     border-radius: 10px;
     margin-bottom: 50px;
     margin-top: 10;
@@ -34,7 +34,7 @@ input[type="email"]:focus,
 input[type="password"]:focus{
     outline: none;
     border: none;
-    background: #fff;
+    background: #1a2226;
     color: #fff;
     margin: 0;
 }
@@ -45,7 +45,7 @@ input[type="password"]:focus{
 }
 
 .btn{
-    background: lightblue !important;
+    background: #48e248 !important;
     color: #000 !important;
     transform: translate(10px);
     font-size: 14px;
