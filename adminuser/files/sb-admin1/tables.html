@@ -60,30 +60,16 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
-                    </div>
-                </div>
+                <a class="nav-link" href="myprofile.php">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>My Profile</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item active">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Data Siswa</span></a>
+                    <span>Data Pembayaran</span></a>
             </li>
 
             <!-- Divider -->
@@ -312,40 +298,41 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tabel Data Pembayaran Spp</h1>
+                   
+                   
 
                     <!-- DataTales Tables -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <a href="bayar.html" class="btn btn-success btn-icon-split">
-                                <span class="icon text-white-50">
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                                <span class="text">Bayar</span>
-                            </a>
+                            <h6 class="m-0 font-weight-bold text-primary">Tabel Data Pembayaran</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Nama Siswa</th>
-                                            <th>NIK</th>
-                                            <th>Bulan Bayar</th>
+                                            <th>Bulan</th>
+                                            <th>No Pembayaran</th>
+                                            <th>Tanggal Pembayaran</th>
                                             <th>Jumlah Bayar</th>
-                                            <th>Status</th>
                                             <th>Sisa</th>
+                                            <th>Keterangan</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Reza</td>
-                                            <td>927463 </td>
-                                            <td>september</td>
-                                            <td>Rp 600.000,00</td>
+                                            <td>Juni</td>
+                                            <td>97675646</td>
+                                            <td>11-3-2020</td>
+                                            <td>Rp 400.000,00</td>
+                                            <td>Rp 200.000,00</td>
                                             <td>Belum Lunas</td>
-                                            <td>Rp 600.000,00</td>
+                                            <td>
+                                                <a href="bayar.html" class="btn btn-success btn-icon-split">
+                                                    <span class="text">Bayar</span>
+                                                </a>
+                                            </td>
                                         </tr>
                                         
                                     </tbody>

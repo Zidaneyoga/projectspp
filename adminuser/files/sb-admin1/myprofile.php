@@ -57,10 +57,10 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="myprofile.php">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>My Profile</span></a>
-            </li>
+              <a class="nav-link" href="myprofile.html">
+                  <i class="fas fa-fw fa-user"></i>
+                  <span>My Profile</span></a>
+          </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
@@ -290,36 +290,41 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="col-lg-6">
 
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                    </div>
-
-                    <!-- Content Row -->
-            
-
-
-                <div class="col-lg-12 mb-4">
-
-                    <!-- Illustrations -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Pembayaran Via Online</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="text-center">
-                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                                    src="img/undraw_stripe_payments_re_chlm.svg" alt="...">
-                            </div>
-                            <p>
-                                Sistem Pembayaran Sumbangan Pendidikan Daring (SPP Online) untuk Sekolah Digital 4.0. Platform untuk memudahkan TU mengelola keuangan, data siswa, notifikasi, pendaftaran, dan pembayaran dari semua channel. 
-                            </p>
-                        </div>
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">My Profile</h6>
+                                </div>
+                                <div class="card-body">
+                                <div class="row">
+                <div class="col-md">
+                    <img src="<?php echo $upload_dir.$row['image'] ?>" height="200">
+                </div>
+                <div class="col-md">
+                    <h5 class="form-control"><i class="fas fa-user">
+                      <span> Nama : <?php echo "Bagas" ?></span>
+                    </i></h5>
+                    <h5 class="form-control"><i class="fas fa-key">
+                      <span>NISN : <?php echo "008765345" ?></span>
+                    </i></h5>
+                    <h5 class="form-control"><i class="fas fa-venus-mars">
+                      <span>Jenis Kelamin : <?php echo "Laki-Laki" ?></span>
+                    </i></h5>
+                    <h5 class="form-control"><i class="fas fa-cogs">
+                      <span>Jurusan : <?php echo "RPL" ?></span>
+                    </i></h5>
+                    <h5 class="form-control"><i class="fas fa-map-marker-alt">
+                      <span>Alamat : <?php echo "Malang" ?></span>
+                    </i></h5> 
 
                 </div>
+              </div>
+                                </div>
+                            </div>
+
+                        </div>
                 
                 </div>
 
