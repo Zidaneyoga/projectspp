@@ -359,72 +359,77 @@
 
                 </nav>
                 <!-- End of Topbar -->
+               
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tabel Data Pembayaran Spp</h1>
+                    <!-- Outer Row -->
+                    <div class="row justify-content-center">
+            
+                        <div class="col-xl-10 col-lg-12 col-md-9">
+            
+                
 
-                    <!-- DataTales Tables -->
-                    <div class="card shadow mb-4">
+                <form>
+                    
+                    <div class="container-fluid">
+
+                        <!-- Page Heading -->
                         <div class="card-header py-3">
-                            <a href="bayar.html" class="btn btn-success btn-icon-split">
-                                <span class="icon text-white-50">
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                                <span class="text">Bayar</span>
-                            </a>
+
+                        <center><h1 class="h3 mb-2 text-gray-800">Bayar Spp</h1></center>
                         </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Nama Siswa</th>
-                                            <th>NIK</th>
-                                            <th>Bulan Bayar</th>
-                                            <th>Jumlah Bayar</th>
-                                            <th>Status</th>
-                                            <th>Sisa</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Reza</td>
-                                            <td>927463 </td>
-                                            <td>september</td>
-                                            <td>Rp 600.000,00</td>
-                                            <td>Belum Lunas</td>
-                                            <td>Rp 600.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Rian</td>
-                                            <td>647352 </td>
-                                            <td>november</td>
-                                            <td>Rp 1.200.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Noval</td>
-                                            <td>9287463 </td>
-                                            <td>april</td>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Belum Lunas</td>
-                                            <td>Rp 1.100.000,00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+    
+                        <!-- DataTales Tables -->
+                        <div class="card shadow mb-4">
+                            
+                            <div class="card-body">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Nama Siswa</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Nik</label>
+                      <input type="number" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Tgl Pembayaran</label>
+                        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Jumlah Bayar</label><br>
+                        <td>
+                            <select>
+                                <option>Rp 100.000,00</option>
+                                <option>Rp 600.000,00</option>
+                                <option>Rp 1.200.000,00</option>
+                            </select>
+                        </td>
+                         </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Bukti</label>
+                        <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                         </div>
 
-                </div>
-                <!-- /.container-fluid -->
+                         <br>
+                    
+                    <button type="submit" class="btn btn-primary" >Konfirmasi</button>
+                    <left>
+                         <a href="tables.html" class="btn btn-success btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                            <span class="text">Kembali</span>
+                        </a>
+                        </left>
+                  </form>
 
-            </div>
-            <!-- End of Main Content -->
+                  </div>
+                  </div>
+                  </div>
+
+          
+                  <!-- End of Main Content -->
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
