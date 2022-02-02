@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
     <title>bayarSPP | USER</title>
 
@@ -19,6 +20,8 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -37,11 +40,12 @@
                 <img src="img/bayarSPP-3.png" class="main-logo" width="275" alt="Awesome Image" />
             </a>
 
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -52,23 +56,18 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Menu
+               Menu
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-<<<<<<< Updated upstream:adminuser/files/sb-admin1/myprofile.php
-              <a class="nav-link" href="myprofile.html">
-                  <i class="fas fa-fw fa-user"></i>
-                  <span>My Profile</span></a>
-          </li>
-=======
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+                    aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pages</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse show" aria-labelledby="headingPages"
+                    data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
                         <a class="collapse-item" href="login.html">Login</a>
@@ -80,7 +79,6 @@
                     </div>
                 </div>
             </li>
->>>>>>> Stashed changes:adminuser/files/sb-admin1/tables.html
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
@@ -317,124 +315,105 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <div class="col-lg-6">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                            <!-- Basic Card Example -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">My Profile</h6>
-                                </div>
-                                <div class="card-body">
-                                <div class="row">
-                <div class="col-md">
-                    <img src="<?php echo $upload_dir.$row['image'] ?>" height="200">
-                </div>
-                <div class="col-md">
-                    <h5 class="form-control"><i class="fas fa-user">
-                      <span> Nama : <?php echo "Bagas" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-key">
-                      <span>NISN : <?php echo "008765345" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-venus-mars">
-                      <span>Jenis Kelamin : <?php echo "Laki-Laki" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-cogs">
-                      <span>Jurusan : <?php echo "RPL" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-map-marker-alt">
-                      <span>Alamat : <?php echo "Malang" ?></span>
-                    </i></h5> 
-
-<<<<<<< Updated upstream:adminuser/files/sb-admin1/myprofile.php
-                </div>
-              </div>
-                                </div>
-=======
-                    <!-- DataTales Tables -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <a href="bayar.html" class="btn btn-success btn-icon-split">
-                                <span class="icon text-white-50">
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                                <span class="text">Bayar</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800"><center>Kalender</center></h1>
+                    <section class="ftco-section">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="elegant-calencar d-md-flex">
+                                        <div class="wrap-header d-flex align-items-center">
+                                      <p id="reset">reset</p>
+                                    <div id="header" class="p-0">
+                                    <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
+                                    <div class="head-info">
+                                        <div class="head-day"></div>
+                                        <div class="head-month"></div>
+                                    </div>
+                                    <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
+                                    </div>
+                                  </div>
+                                  <div class="calendar-wrap">
+                                    <table id="calendar">
                                     <thead>
                                         <tr>
-                                            <th>NIS</th>
-                                            <th>Bulan Bayar</th>
-                                            <th>Tanggal Bayar</th>
-                                            <th>Jumlah Bayar</th>
-                                            <th>Status</th>
-                                            <th>Sisa</th>
+                                            <th>Sun</th>
+                                            <th>Mon</th>
+                                            <th>Tue</th>
+                                            <th>Wed</th>
+                                            <th>Thu</th>
+                                            <th>Fri</th>
+                                            <th>Sat</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>123456  </td>
-                                            <td>September</td>
-                                            <th>12-09-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 1.100.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>123456 </td>
-                                            <td>Oktober</td>
-                                            <th>12-10-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 1.000.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>123456  </td>
-                                            <td>November</td>
-                                            <th>12-11-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 900.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>123456  </td>
-                                            <td>Desember</td>
-                                            <th>12-12-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 800.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>123456  </td>
-                                            <td>Januari</td>
-                                            <th>12-01-2021</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 700.000,00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>123456  </td>
-                                            <td>Februari</td>
-                                            <th>12-02-2021</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Lunas</td>
-                                            <td>Rp 100.000,00</td>
-                                        </tr>
-                                        
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
                                     </tbody>
-                                </table>
->>>>>>> Stashed changes:adminuser/files/sb-admin1/tables.html
+                                    </table>
+                                  </div>
+                                </div>
+                                </div>
                             </div>
-
                         </div>
-                
-                </div>
-
-                            
-                       
+                    </section>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -446,7 +425,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; bayarSPP 2022</span>
+                        <span>Copyright &copy; bayarSPP 2020</span>
                     </div>
                 </div>
             </footer>
@@ -486,19 +465,16 @@
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+                
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
