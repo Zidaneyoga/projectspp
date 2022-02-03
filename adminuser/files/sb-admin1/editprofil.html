@@ -12,14 +12,17 @@
 
     <title>bayarSPP | USER</title>
 
-    <!-- Custom fonts for this template-->
+    <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Custom styles for this template-->
+    <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -70,10 +73,10 @@
                     <span>Data Pembayaran</span></a>
             </li>
 
-             <!-- Nav Item - Kalender -->
-             <li class="nav-item">
+            <!-- Nav Item - Kalender -->
+            <li class="nav-item">
                 <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-calendar"></i>
+                    <i class="fas fa-fw fa-table"></i>
                     <span>Kalender</span></a>
             </li>
 
@@ -91,9 +94,6 @@
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
-        <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
-
             <!-- Main Content -->
             <div id="content">
 
@@ -101,9 +101,11 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                    <form class="form-inline">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </form>
 
                     <!-- Topbar Search -->
                     <form
@@ -300,90 +302,96 @@
 
                 </nav>
                 <!-- End of Topbar -->
+               
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container">
 
-                    <!-- Content Row -->
+                    <!-- Outer Row -->
+                    <div class="row justify-content-center">
             
-
-
-                <center><div class="col-lg-7 mb-4">
-
-
-                    <!-- Content Row -->
-        
-
-                    <!-- Illustrations -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary"><left>My Profile</left></h6>
-                        </div>
-                        <div class="card-body">
-                        <center><div class="col-md-">
-							<img src="img/user.png" class="img-responsive avatar">
-						</div><center>
-								<div class="col-md- mt-4">
-									<table class="table table-hover">
-										<tbody>
-											<tr>
-												<td>Nama</td>
-												<td>:</td>
-												<td>Bagas</td>
-											</tr>
-											<tr>
-												<td>NISN</td>
-												<td>:</td>
-												<td>07654334567</td>
-											</tr>
-											<tr>
-												<td>Jenis Kelamin</td>
-												<td>:</td>
-												<td>Laki-laki</td>
-											</tr>
-											<tr>
-												<td>Kelas / Jurusan</td>
-												<td>:</td>
-												<td>XI RPL A</td>
-											</tr>
-											<tr>
-												<td>Alamat</td>
-												<td>:</td>
-												<td>Malang</td>
-											</tr>
-									    </tbody>
-									</table>
-								</div>
-								
-
-
-                        </div>
-
-                </div><center>
+                        <div class="col-xl-10 col-lg-12 col-md-9">
+            
                 
-                </div>
-                <div>
-                <left>
-                         <a href="editprofil.html" class="btn btn-success btn-icon-split">
+
+                <form>
+                    
+                    <div class="container-fluid">
+
+                        <!-- Page Heading -->
+                        <div class="card-header py-3">
+
+                        <center><h1 class="h3 mb-2 text-gray-800">Bayar SPP</h1></center>
+                        </div>
+    
+                        <!-- DataTales Tables -->
+                        <div class="card shadow mb-4">
+                            
+                            <div class="card-body">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Nama Siswa</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">NISN</label>
+                      <input type="number" class="form-control" >
+                    </div>
+
+                    
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Jenis Kelamin</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                      
+                    <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Kelas / Jurusan</label><br>
+                    <td>
+                        <select>
+                            <option>X RPL A</option>
+                            <option>X RPL B</option>
+                            <option>X RPL C</option>
+                            <option>X RPL D</option>
+                            <option>XI RPL A</option>
+                            <option>XI RPL B</option>
+                            <option>XI RPL C</option>
+                            <option>XI RPL D</option>
+                            <option>XII RPL A</option>
+                            <option>XII RPL B</option>
+                            <option>XII RPL C</option>
+                            <option>XII RPL D</option>
+                        </select>
+                    </td>
+
+                    </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Alamat</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                         </div>
+
+                         <br>
+                    
+                    <button type="submit" class="btn btn-primary" >Konfirmasi</button>
+                    <left>
+                         <a href="tables.html" class="btn btn-success btn-icon-split">
                             <span class="icon text-white-50">
                                 <i class="fas fa-arrow-right"></i>
                             </span>
-                            <span class="text">Edit Profil</span>
+                            <span class="text">Kembali</span>
                         </a>
-                </left>
-                <div>
+                        </left>
+                  </form>
 
-                </div>
-                <!-- /.container-fluid -->
+                  </div>
+                  </div>
+                  </div>
 
-            </div>
-            <!-- End of Main Content -->
+          
+                  <!-- End of Main Content -->
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; bayarSPP 2022</span>
+                        <span>Copyright &copy; Your Website 2020</span>
                     </div>
                 </div>
             </footer>
@@ -431,11 +439,11 @@
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
