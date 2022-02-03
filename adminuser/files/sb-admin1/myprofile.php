@@ -57,7 +57,11 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
+<<<<<<< Updated upstream
             <li class="nav-item active">
+=======
+            <li class="nav-item">
+>>>>>>> Stashed changes
                 <a class="nav-link" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
@@ -70,13 +74,12 @@
                     <span>Data Pembayaran</span></a>
             </li>
 
-<<<<<<< HEAD
             <!-- Nav Item - Kalender -->
             <li class="nav-item">
-=======
+
              <!-- Nav Item - Kalender -->
              <li class="nav-item">
->>>>>>> 8a517d60b0327acac6c42897ed96e9c3ad333464
+
                 <a class="nav-link" href="kalender.html">
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Kalender</span></a>
@@ -304,6 +307,7 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+<<<<<<< Updated upstream
 
                     <!-- Content Row -->
             
@@ -311,6 +315,15 @@
 
                 <center><div class="col-lg-7 mb-4">
 
+=======
+
+                    <!-- Content Row -->
+            
+
+
+                <center><div class="col-lg-7 mb-4">
+
+>>>>>>> Stashed changes
                     <!-- Illustrations -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
