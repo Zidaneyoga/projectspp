@@ -354,7 +354,17 @@
 									    </tbody>
 									</table>
 								</div>
-								
+								<div class="form-group text-left">
+                        <left>
+                       
+                         <a href="editprofil.html" class="btn btn-warning btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-edit fa-sm"></i>
+                            </span>
+                            <span class="text">Edit</span>
+                        </a>
+                        </left>
+                     </div>
 
 
                         </div>
@@ -362,14 +372,7 @@
                 </div><center>
                 
                 </div>
-                <div>
-                <left>
-                         <a href="editprofil.html" class="btn btn-success btn-icon-split">
-                            <span class="icon text-white-50">
-                                <i class="fas fa-arrow-right"></i>
-                            </span>
-                            <span class="text">Edit Profil</span>
-                        </a>
+            
                 </left>
                 <div>
 
