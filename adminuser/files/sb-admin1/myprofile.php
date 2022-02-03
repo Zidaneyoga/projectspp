@@ -62,7 +62,7 @@
 
             <li class="nav-item">
 
-                <a class="nav-link" href="myprofile.php">
+                <a class="nav-link active" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
             </li>
