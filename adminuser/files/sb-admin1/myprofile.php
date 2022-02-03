@@ -57,11 +57,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-
             <li class="nav-item active">
-
-            <li class="nav-item">
-
                 <a class="nav-link active" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
