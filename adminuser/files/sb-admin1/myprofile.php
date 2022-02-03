@@ -70,19 +70,11 @@
                     <span>Data Pembayaran</span></a>
             </li>
 
-<<<<<<< HEAD
             <!-- Nav Item - Kalender -->
             <li class="nav-item">
                 <a class="nav-link" href="kalender.html">
                     <i class="fas fa-fw fa-calendar"></i>
-=======
-             <!-- Nav Item - Kalender -->
-             <li class="nav-item">
-                <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-table"></i>
->>>>>>> d778c337d6b354ba96b3ad5dabc77318af8f4ca8
                     <span>Kalender</span></a>
-            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
