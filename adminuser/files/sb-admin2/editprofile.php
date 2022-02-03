@@ -325,46 +325,14 @@
                             <div class="card-body">
 
                             <div class="form-group">
-                                <label for="name">Nama Siswa</label>
-                                <input type="text" class="form-control" name="name"  value="<?php echo $row['name']; ?>">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" name="username" value="<?php echo $row['username']; ?>">
                             </div>
                           
                             <div class="form-group">
-                                <label for="nisn">NISN</label>
-                                <input type="text" class="form-control" name="nisn" value="<?php echo $row['nisn']; ?>">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" name="email" value="<?php echo $row['email']; ?>">
                             </div>
-
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label><br>
-                                <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Laki-laki"> Laki-laki
-                                <label for="exampleInputEmail1" class="form-label">
-                                <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Perempuan"> Perempuan
-                                </label>
-                            </div> 
-
-                        <div class="form-group">
-                            <label>Kelas / Jurusan</label>
-                                <select class="form-control" name="bulan">
-                                    <option value="">Pilih Bulan</option>
-                                    <option>X RPL A</option>
-                                    <option>X RPL B</option>
-                                    <option>X RPL C</option>
-                                    <option>X RPL D</option>
-                                    <option>XI RPL A</option>
-                                    <option>XI RPL B</option>
-                                    <option>XI RPL C</option>
-                                    <option>XI RPL D</option>
-                                    <option>XII RPL A</option>
-                                    <option>XII RPL B</option>
-                                    <option>XII RPL C</option>
-                                    <option>XII RPL D</option>
-                                </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="alamat">Alamat</label>
-                            <input type="alamat" class="form-control" name="alamat" value="<?php echo $row['alamat']; ?>">
-                        </div>
 
                     <div class="form-group">
                     <label for="exampleInputEmail1" class="form-label">Foto</label>

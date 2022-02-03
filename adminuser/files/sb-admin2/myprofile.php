@@ -42,7 +42,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -58,7 +58,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item active">
-                <a class="nav-link" href="myprofile.php">
+                <a class="nav-link active" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
             </li>
@@ -67,7 +67,20 @@
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Data Siswa</span></a>
+                    <span>Data Pembayaran</span></a>
+            </li>
+
+             <!-- Nav Item - Kalender -->
+             <li class="nav-item">
+                <a class="nav-link" href="kalender.html">
+                    <i class="fas fa-fw fa-calendar"></i>
+                    <span>Kalender</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">
+                    <i class="fas fa-fw fa-sign-out-alt"></i>
+                    <span>Logout</span></a>
             </li>
 
             <!-- Divider -->
@@ -80,6 +93,9 @@
 
         </ul>
         <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -261,7 +277,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="img/user.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -298,7 +314,11 @@
             
 
 
-                <center><div class="col-lg-7 mb-4">
+                <center><div class="col-lg-4 mb-4">
+
+
+                    <!-- Content Row -->
+        
 
                     <!-- Illustrations -->
                     <div class="card shadow mb-4">
@@ -307,40 +327,35 @@
                         </div>
                         <div class="card-body">
                         <center><div class="col-md-">
-							<img src="http://localhost/spps/media/img/user.png" class="img-responsive avatar">
+							<img src="img/user.png" class="img-responsive avatar">
 						</div><center>
 								<div class="col-md- mt-4">
 									<table class="table table-hover">
 										<tbody>
 											<tr>
-												<td>Nama</td>
+												<td>Username</td>
 												<td>:</td>
 												<td>Bagas</td>
 											</tr>
 											<tr>
-												<td>NISN</td>
+												<td>Email</td>
 												<td>:</td>
-												<td>07654334567</td>
-											</tr>
-											<tr>
-												<td>Jenis Kelamin</td>
-												<td>:</td>
-												<td>Laki-laki</td>
-											</tr>
-											<tr>
-												<td>Kelas / Jurusan</td>
-												<td>:</td>
-												<td>XI RPL A</td>
-											</tr>
-											<tr>
-												<td>Alamat</td>
-												<td>:</td>
-												<td>Malang</td>
+												<td>admin@admin.com</td>
 											</tr>
 									    </tbody>
 									</table>
 								</div>
-								
+								<div class="form-group text-left">
+                        <left>
+                       
+                         <a href="editprofile.php" class="btn btn-warning btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-edit fa-sm"></i>
+                            </span>
+                            <span class="text">Edit</span>
+                        </a>
+                        </left>
+                     </div>
 
 
                         </div>
@@ -348,9 +363,9 @@
                 </div><center>
                 
                 </div>
-
-                            
-                       
+            
+                </left>
+                
 
                 </div>
                 <!-- /.container-fluid -->
