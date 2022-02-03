@@ -74,15 +74,12 @@
                     <span>Data Pembayaran</span></a>
             </li>
 
-            <!-- Nav Item - Kalender -->
-            <li class="nav-item">
-
              <!-- Nav Item - Kalender -->
              <li class="nav-item">
-
                 <a class="nav-link" href="kalender.html">
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Kalender</span></a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -94,6 +91,9 @@
 
         </ul>
         <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
