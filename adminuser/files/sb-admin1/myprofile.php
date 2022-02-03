@@ -70,8 +70,13 @@
                     <span>Data Pembayaran</span></a>
             </li>
 
+<<<<<<< HEAD
             <!-- Nav Item - Kalender -->
             <li class="nav-item">
+=======
+             <!-- Nav Item - Kalender -->
+             <li class="nav-item">
+>>>>>>> 8a517d60b0327acac6c42897ed96e9c3ad333464
                 <a class="nav-link" href="kalender.html">
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Kalender</span></a>
