@@ -307,7 +307,6 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-<<<<<<< Updated upstream
 
                     <!-- Content Row -->
             
@@ -315,7 +314,6 @@
 
                 <center><div class="col-lg-7 mb-4">
 
-=======
 
                     <!-- Content Row -->
             
@@ -323,7 +321,6 @@
 
                 <center><div class="col-lg-7 mb-4">
 
->>>>>>> Stashed changes
                     <!-- Illustrations -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
