@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
-    <title>bayarSPP | USER</title>
+    <title>bayarSPP | ADMIN</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
