@@ -316,10 +316,7 @@
 
 
                     <!-- Content Row -->
-            
-
-
-                <center><div class="col-lg-7 mb-4">
+        
 
                     <!-- Illustrations -->
                     <div class="card shadow mb-4">
