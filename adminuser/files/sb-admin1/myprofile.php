@@ -57,11 +57,11 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-<<<<<<< Updated upstream
+
             <li class="nav-item active">
-=======
+
             <li class="nav-item">
->>>>>>> Stashed changes
+
                 <a class="nav-link" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
