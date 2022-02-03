@@ -321,7 +321,7 @@
                         </div>
                         <div class="card-body">
                         <center><div class="col-md-">
-							<img src="http://localhost/spps/media/img/user.png" class="img-responsive avatar">
+							<img src="img/user.png" class="img-responsive avatar">
 						</div><center>
 								<div class="col-md- mt-4">
 									<table class="table table-hover">
