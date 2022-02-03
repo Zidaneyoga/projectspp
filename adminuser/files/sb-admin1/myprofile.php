@@ -42,7 +42,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -57,7 +57,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
@@ -68,6 +68,13 @@
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Data Pembayaran</span></a>
+            </li>
+
+             <!-- Nav Item - Kalender -->
+             <li class="nav-item">
+                <a class="nav-link" href="kalender.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Kalender</span></a>
             </li>
 
             <!-- Divider -->
