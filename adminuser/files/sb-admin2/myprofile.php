@@ -58,6 +58,10 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item active">
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5c9134e2570f85ae3908d74db0158762bc4a565
                 <a class="nav-link active" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
@@ -81,6 +85,13 @@
                 <a class="nav-link" href="login.html">
                     <i class="fas fa-fw fa-sign-out-alt"></i>
                     <span>Logout</span></a>
+            </li>
+
+            <!-- Nav Item - Kalender -->
+            <li class="nav-item">
+                <a class="nav-link" href="kalender.html">
+                    <i class="fas fa-fw fa-calendar"></i>
+                    <span>Kalender</span></a>
             </li>
 
             <!-- Divider -->
