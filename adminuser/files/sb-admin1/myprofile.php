@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
     <title>bayarSPP | USER</title>
 
@@ -57,10 +58,9 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-              <a class="nav-link" href="myprofile.html">
-                  <i class="fas fa-fw fa-user"></i>
-                  <span>My Profile</span></a>
-          </li>
+                <a class="nav-link" href="myprofile.php">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>My Profile</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
@@ -68,13 +68,6 @@
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Data Pembayaran</span></a>
-            </li>
-
-            <!-- Nav Item - Kalender -->
-            <li class="nav-item">
-                <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Kalender</span></a>
             </li>
 
             <!-- Divider -->
@@ -298,38 +291,69 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <div class="col-lg-6">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                            <!-- Basic Card Example -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">My Profile</h6>
-                                </div>
-                                <div class="card-body">
-                                <div class="row">
-                <div class="col-md">
-                    <img src="<?php echo $upload_dir.$row['image'] ?>" height="200">
+                    <!-- Content Row -->
+            
+
+
+                <center><div class="col-lg-7 mb-4">
+
+                    <!-- Illustrations -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary"><left>My Profile</left></h6>
+                        </div>
+                        <div class="card-body">
+                        <center><div class="col-md-">
+							<img src="http://localhost/spps/media/img/user.png" class="img-responsive avatar">
+						</div><center>
+								<div class="col-md- mt-4">
+									<table class="table table-hover">
+										<tbody>
+											<tr>
+												<td>Nama</td>
+												<td>:</td>
+												<td>Bagas</td>
+											</tr>
+											<tr>
+												<td>NISN</td>
+												<td>:</td>
+												<td>07654334567</td>
+											</tr>
+											<tr>
+												<td>Jenis Kelamin</td>
+												<td>:</td>
+												<td>Laki-laki</td>
+											</tr>
+											<tr>
+												<td>Kelas / Jurusan</td>
+												<td>:</td>
+												<td>XI RPL A</td>
+											</tr>
+											<tr>
+												<td>Alamat</td>
+												<td>:</td>
+												<td>Malang</td>
+											</tr>
+									    </tbody>
+									</table>
+								</div>
+								
+
+
+                        </div>
+
+                </div><center>
+                
                 </div>
-                <div class="col-md">
-                    <h5 class="form-control"><i class="fas fa-user">
-                      <span> Nama : <?php echo "Bagas" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-key">
-                      <span>NISN : <?php echo "008765345" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-venus-mars">
-                      <span>Jenis Kelamin : <?php echo "Laki-Laki" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-cogs">
-                      <span>Jurusan : <?php echo "RPL" ?></span>
-                    </i></h5>
-                    <h5 class="form-control"><i class="fas fa-map-marker-alt">
-                      <span>Alamat : <?php echo "Malang" ?></span>
-                    </i></h5> 
+
+                            
+                       
+
                 </div>
-              </div>
-            </div>
-                   
+                <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->
