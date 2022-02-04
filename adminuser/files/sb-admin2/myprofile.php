@@ -98,7 +98,7 @@
         <div id="content-wrapper" class="d-flex flex-column">
 
         <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content-wrapper" class="d-flex flex-column mt-5">
 
             <!-- Main Content -->
             <div id="content">
@@ -314,7 +314,7 @@
             
 
 
-                <center><div class="col-lg-4 mb-4">
+                <center><div class="col-lg-4 mb-4 ">
 
 
                     <!-- Content Row -->
