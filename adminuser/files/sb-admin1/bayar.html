@@ -81,6 +81,12 @@
                     <span>Kalender</span></a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">
+                    <i class="fas fa-fw fa-sign-out-alt"></i>
+                    <span>Logout</span></a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -272,9 +278,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Bagas</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="img/user.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -325,12 +331,12 @@
                             <div class="card-body">
                     <div class="form-group">
                         <label for="name">Nama Siswa</label>
-                        <input type="text" class="form-control" name="name"  value="<?php echo $row['name']; ?>">
+                        <input type="text" class="form-control" name="name"  placeholder="Masukan Nama Anda">
                     </div>
 
                     <div class="form-group">
                       <label for="nisn">NISN</label>
-                      <input type="text" class="form-control" name="nisn" value="<?php echo $row['nisn']; ?>">
+                      <input type="text" class="form-control" name="nisn" placeholder="Masukan NISN Anda">
                     </div>
 
                     <div class="form-group">

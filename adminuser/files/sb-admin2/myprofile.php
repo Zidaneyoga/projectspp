@@ -67,7 +67,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Data Pembayaran</span></a>
+                    <span>Data Siswa</span></a>
             </li>
 
              <!-- Nav Item - Kalender -->
