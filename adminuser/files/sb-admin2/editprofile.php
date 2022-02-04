@@ -309,7 +309,7 @@
                     <!-- Outer Row -->
                     <div class="row justify-content-center">
             
-                        <div class="col-xl-10 col-lg-12 col-md-9">
+                        <div class="col-xl-10 col-lg-6 col-md-9">
             
                 
 
@@ -326,12 +326,12 @@
 
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input type="text" class="form-control" name="username" value="<?php echo $row['username']; ?>">
+                                <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Anda">
                             </div>
                           
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="text" class="form-control" name="email" value="<?php echo $row['email']; ?>">
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
                             </div>
 
                     <div class="form-group">
