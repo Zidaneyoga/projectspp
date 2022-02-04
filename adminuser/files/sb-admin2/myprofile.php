@@ -111,9 +111,6 @@
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
-        <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column mt-5">
-
             <!-- Main Content -->
             <div id="content">
 
