@@ -8,21 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
-    <title>bayarSPP | USER</title>
+    <title>SB Admin 2 - Blank</title>
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -37,16 +33,17 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
                 </div>
-                <img src="img/bayarSPP-3.png" class="main-logo" width="275" alt="Awesome Image" />
+                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">
+            <li class="nav-item active">
+                <a class="nav-link active" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -60,8 +57,8 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item active">
-                <a class="nav-link active" href="myprofile.php">
+            <li class="nav-item">
+                <a class="nav-link" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
             </li>
@@ -76,8 +73,14 @@
             <!-- Nav Item - Kalender -->
             <li class="nav-item">
                 <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-calendar"></i>
                     <span>Kalender</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">
+                    <i class="fas fa-fw fa-sign-out-alt"></i>
+                    <span>Logout</span></a>
             </li>
 
             <!-- Divider -->
@@ -101,11 +104,9 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <form class="form-inline">
-                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                    </form>
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
 
                     <!-- Topbar Search -->
                     <form
@@ -271,9 +272,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Bagas</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="img/user.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -302,94 +303,93 @@
 
                 </nav>
                 <!-- End of Topbar -->
-               
 
-                <div class="container">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                    <!-- Outer Row -->
-                    <div class="row justify-content-center">
-            
-                        <div class="col-xl-10 col-lg-12 col-md-9">
+                    <!-- Page Heading -->
+                    <div class="col-xl-10 col-lg-12 col-md-9">
             
                 
 
-                <form>
-                    
-                    <div class="container-fluid">
-
-                        <!-- Page Heading -->
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Edit Profile</h6>
-                            </div>
-                            <div class="card-body">
-
-                            <div class="form-group">
-                                <label for="name">Nama Siswa</label>
-                                <input type="text" class="form-control" name="name"  value="<?php echo $row['name']; ?>">
-                            </div>
+                      <form>
                           
-                            <div class="form-group">
-                                <label for="nisn">NISN</label>
-                                <input type="text" class="form-control" name="nisn" value="<?php echo $row['nisn']; ?>">
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label><br>
-                                <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Laki-laki"> Laki-laki
-                                <label for="exampleInputEmail1" class="form-label">
-                                <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Perempuan"> Perempuan
-                                </label>
-                            </div> 
-
-                        <div class="form-group">
-                            <label>Kelas / Jurusan</label>
-                                <select class="form-control" name="bulan">
-                                    <option value="">Pilih Bulan</option>
-                                    <option>X RPL A</option>
-                                    <option>X RPL B</option>
-                                    <option>X RPL C</option>
-                                    <option>X RPL D</option>
-                                    <option>XI RPL A</option>
-                                    <option>XI RPL B</option>
-                                    <option>XI RPL C</option>
-                                    <option>XI RPL D</option>
-                                    <option>XII RPL A</option>
-                                    <option>XII RPL B</option>
-                                    <option>XII RPL C</option>
-                                    <option>XII RPL D</option>
-                                </select>
+                          <div class="container-fluid">
+      
+                              <!-- Page Heading -->
+                              <div class="card shadow mb-4">
+                                  <div class="card-header py-3">
+                                      <h6 class="m-0 font-weight-bold text-primary">Edit Profile</h6>
+                                  </div>
+                                  <div class="card-body">
+      
+                                  <div class="form-group">
+                                      <label for="name">Nama Siswa</label>
+                                      <input type="text" class="form-control" name="name" placeholder="Masukan Nama Anda" >
+                                  </div>
+                                
+                                  <div class="form-group">
+                                      <label for="nisn">NISN</label>
+                                      <input type="text" class="form-control" name="nisn" placeholder="Masukan NISN Anda">
+                                  </div>
+      
+                                  <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label><br>
+                                      <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Laki-laki"> Laki-laki
+                                      <label for="exampleInputEmail1" class="form-label">
+                                      <input type="radio" name="jeniskelamin" id="flexRadioDefault1" value="Perempuan"> Perempuan
+                                      </label>
+                                  </div> 
+      
+                              <div class="form-group">
+                                  <label>Kelas / Jurusan</label>
+                                      <select class="form-control" name="bulan">
+                                          <option value="">Pilih Bulan</option>
+                                          <option>X RPL A</option>
+                                          <option>X RPL B</option>
+                                          <option>X RPL C</option>
+                                          <option>X RPL D</option>
+                                          <option>XI RPL A</option>
+                                          <option>XI RPL B</option>
+                                          <option>XI RPL C</option>
+                                          <option>XI RPL D</option>
+                                          <option>XII RPL A</option>
+                                          <option>XII RPL B</option>
+                                          <option>XII RPL C</option>
+                                          <option>XII RPL D</option>
+                                      </select>
+                              </div>
+      
+                              <div class="form-group">
+                                  <label for="alamat">Alamat</label>
+                                  <input type="alamat" class="form-control" name="alamat" placeholder="Masukan Alamat Anda">
+                              </div>
+      
+                          <div class="form-group">
+                          <label for="exampleInputEmail1" class="form-label">Foto</label>
+                          <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              </div>
+      
+                              <br>
+                          
+                          <button type="submit" class="btn btn-primary" >Konfirmasi</button>
+                          <left>
+                               <a href="myprofile.php" class="btn btn-success btn-icon-split">
+                                  <span class="icon text-white-50">
+                                      <i class="fas fa-arrow-right"></i>
+                                  </span>
+                                  <span class="text">Kembali</span>
+                              </a>
+                              </left>
+                        </form>
+      
                         </div>
 
-                        <div class="form-group">
-                            <label for="alamat">Alamat</label>
-                            <input type="alamat" class="form-control" name="alamat" value="<?php echo $row['alamat']; ?>">
-                        </div>
+                </div>
+                <!-- /.container-fluid -->
 
-                    <div class="form-group">
-                    <label for="exampleInputEmail1" class="form-label">Foto</label>
-                    <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-
-                        <br>
-                    
-                    <button type="submit" class="btn btn-primary" >Konfirmasi</button>
-                    <left>
-                         <a href="myprofile.php" class="btn btn-success btn-icon-split">
-                            <span class="icon text-white-50">
-                                <i class="fas fa-arrow-right"></i>
-                            </span>
-                            <span class="text">Kembali</span>
-                        </a>
-                        </left>
-                  </form>
-
-                  </div>
-                  </div>
-                  </div>
-
-          
-                  <!-- End of Main Content -->
+            </div>
+            <!-- End of Main Content -->
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
@@ -441,13 +441,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
