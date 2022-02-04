@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
-    <title>bayarSPP | USER</title>
+    <title>bayarSPP | ADMIN</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -78,6 +78,13 @@
               <a class="nav-link" href="dataspp.html">
                   <i class="fas fa-fw fa-cash-register"></i>
                   <span>Data Pembayaran</span></a>
+            </li>
+
+            <!-- Nav Item - History -->
+            <li class="nav-item">
+                <a class="nav-link" href="historypembayaran.html">
+                    <i class="fas fa-fw fa-history"></i>
+                    <span>History Pembayaran</span></a>
             </li>
 
             <!-- Nav Item - Kalender -->
