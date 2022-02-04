@@ -70,7 +70,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Data Pembayaran</span></a>
+                    <span>Data Siswa</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+              <a class="nav-link" href="dataspp.html">
+                  <i class="fas fa-fw fa-cash-register"></i>
+                  <span>Data Pembayaran</span></a>
             </li>
 
             <!-- Nav Item - Kalender -->
