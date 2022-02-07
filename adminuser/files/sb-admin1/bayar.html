@@ -326,22 +326,13 @@
 
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Input Data Pembayaran SPP</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Input Pembayaran SPP</h6>
                             </div>
                             <div class="card-body">
-                    <div class="form-group">
-                        <label for="name">Nama Siswa</label>
-                        <input type="text" class="form-control" name="name"  placeholder="Masukkan Nama Anda">
-                    </div>
-
-                    <div class="form-group">
-                      <label for="nisn">NISN</label>
-                      <input type="text" class="form-control" name="nisn" placeholder="Masukkan NISN Anda">
-                    </div>
 
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="form-label">Jumlah bayar</label>
-                        <input type="number" class="form-control" placeholder="Masukkan Nominal">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="Rp. 100.000,00" disabled>
                     </div>
                       
                     <div class="form-group">
@@ -367,11 +358,18 @@
                                 <option>Desember</option>
                         </select>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="image">Pilih Bukti Pembayaran</label>
-                        <input type="file" class="form-control" name="image" value="">
-                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Metode Pembayaran</label><br>
+                        <input type="radio" name="metode" id="flexRadioDefault1" value="OVO"> OVO <br>
+                        <label for="exampleInputEmail1" class="form-label">
+                        <input type="radio" name="metode" id="flexRadioDefault1" value="Gopay"> GOPAY <br>
+                        <label for="exampleInputEmail1" class="form-label">
+                        <input type="radio" name="dana" id="flexRadioDefault1" value="Dana"> DANA <br>
+                        <label for="exampleInputEmail1" class="form-label">
+                        <input type="radio" name="ebank" id="flexRadioDefault1" value="E-Banking"> E-Banking <br>
+                        </label>
+                    </div> 
                     
                     <div class="form-group">
                         <left>
