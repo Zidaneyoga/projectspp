@@ -85,11 +85,7 @@
             </li>
 
              <!-- Nav Item - Kalender -->
-             <li class="nav-item">
-                <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-calendar"></i>
-                    <span>Kalender</span></a>
-            </li>
+             
 
             <li class="nav-item">
                 <a class="nav-link" href="../index.html">
@@ -297,9 +293,9 @@
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
+                                <a class="dropdown-item" href="editsandi.html">
+                                    <i class="fas fa-lock fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Ganti Kata Sandi
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
