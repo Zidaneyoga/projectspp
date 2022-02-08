@@ -88,11 +88,7 @@
             </li>
 
             <!-- Nav Item - Kalender -->
-            <li class="nav-item">
-                <a class="nav-link" href="kalender.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Kalender</span></a>
-            </li>
+            
 
             <li class="nav-item">
                 <a class="nav-link" href="../index.html">
