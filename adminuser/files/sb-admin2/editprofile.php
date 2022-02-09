@@ -123,16 +123,6 @@
                         </button>
                     </form>
 
-                    <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <a class="navbar-brand" href="https://www.smkn8malang.sch.id/">
-                            <img id="logo" src="img/smkn8malang.png" width="45" height="45" alt="Logo SMKN 8 MALANG">
-                            <b>SMK NEGERI 8 MALANG</b>
-  
-                          </a>
-                    </form>
-
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -198,12 +188,22 @@
                             <div class="card-body">
 
                             <div class="form-group">
-                                <label for="username">Username</label>
+                                <label for="username">Nama Sekolah</label>
                                 <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Anda">
                             </div>
                           
                             <div class="form-group">
                                 <label for="email">Email</label>
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">No Sekolah</label>
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Alamat</label>
                                 <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
                             </div>
 

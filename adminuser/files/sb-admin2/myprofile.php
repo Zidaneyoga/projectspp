@@ -122,6 +122,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
+<<<<<<< HEAD
                     <!-- Topbar Search -->
                     <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -136,6 +137,8 @@
                         </div>
                     </form>
 
+=======
+>>>>>>> 034534e49426ae6d53e7126282aee52e29354673
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -386,20 +389,30 @@
                         </div>
                         <div class="card-body">
                         <center><div class="col-md-">
-							<img src="img/user.png" class="img-responsive avatar">
+							<img src="img/smk8.png" width="80" height="80" class="img-responsive avatar" >
 						</div><center>
 								<div class="col-md- mt-4">
 									<table class="table table-hover">
 										<tbody>
 											<tr>
-												<td>Username</td>
+												<td>Nama Sekolah</td>
 												<td>:</td>
-												<td>Bagas</td>
+												<td>SMK 8 Malang</td>
 											</tr>
 											<tr>
 												<td>Email</td>
 												<td>:</td>
 												<td>admin@admin.com</td>
+											</tr>
+                                            <tr>
+												<td>No Sekolah</td>
+												<td>:</td>
+												<td>085622773427</td>
+											</tr>
+                                            <tr>
+												<td>Alamat</td>
+												<td>:</td>
+												<td>Arjosari Malang</td>
 											</tr>
 									    </tbody>
 									</table>
