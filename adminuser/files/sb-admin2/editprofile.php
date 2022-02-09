@@ -198,12 +198,22 @@
                             <div class="card-body">
 
                             <div class="form-group">
-                                <label for="username">Username</label>
+                                <label for="username">Nama Sekolah</label>
                                 <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Anda">
                             </div>
                           
                             <div class="form-group">
                                 <label for="email">Email</label>
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">No Sekolah</label>
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Alamat</label>
                                 <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
                             </div>
 
