@@ -64,6 +64,12 @@
                     <span>My Profile</span></a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="profile_sekolah.html">
+                    <i class="fas fa-fw fa-book"></i>
+                    <span>Profile Sekolah</span></a>
+            </li>
+
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">

@@ -212,22 +212,12 @@
 											<tr>
 												<td>Nama Sekolah</td>
 												<td>:</td>
-												<td>SMK 8 Malang</td>
+												<td>SMKN 8 Malang</td>
 											</tr>
 											<tr>
 												<td>Email</td>
 												<td>:</td>
 												<td>admin@admin.com</td>
-											</tr>
-                                            <tr>
-												<td>No Sekolah</td>
-												<td>:</td>
-												<td>085622773427</td>
-											</tr>
-                                            <tr>
-												<td>Alamat</td>
-												<td>:</td>
-												<td>Arjosari Malang</td>
 											</tr>
 									    </tbody>
 									</table>
