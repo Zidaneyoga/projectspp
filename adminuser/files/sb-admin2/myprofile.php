@@ -119,6 +119,15 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
+                    <!-- Topbar Search -->
+                    <form
+                    class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <br>
+                    <p>PROFILE</p> 
+                    </form>
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -217,7 +226,7 @@
 											<tr>
 												<td>Email</td>
 												<td>:</td>
-												<td>admin@admin.com</td>
+												<td>freedomcode.sch.id</td>
 											</tr>
 									    </tbody>
 									</table>
