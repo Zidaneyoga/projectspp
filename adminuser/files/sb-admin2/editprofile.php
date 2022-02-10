@@ -198,15 +198,6 @@
                                 <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
                             </div>
 
-                            <div class="form-group">
-                                <label for="email">No Sekolah</label>
-                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Alamat</label>
-                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
-                            </div>
 
                     <div class="form-group">
                     <label for="exampleInputEmail1" class="form-label">Foto</label>
