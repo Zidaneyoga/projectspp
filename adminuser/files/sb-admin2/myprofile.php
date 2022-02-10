@@ -59,6 +59,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item active">
+
                 <a class="nav-link active" href="myprofile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>My Profile</span></a>
@@ -71,20 +72,34 @@
                     <span>Data Siswa</span></a>
             </li>
 
-            <!-- Nav Item - Tables -->
             <li class="nav-item">
-              <a class="nav-link" href="dataspp.html">
-                  <i class="fas fa-fw fa-cash-register"></i>
-                  <span>Data Pembayaran</span></a>
+                <a class="nav-link" href="dataspp.html">
+                    <i class="fas fa-fw fa-cash-register"></i>
+                    <span>Data Pembayaran</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Setting Pembayaran</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Pembayaran kelas:</h6>
+                        <a class="collapse-item" href="kelas_X.html">X</a>
+                        <a class="collapse-item" href="kelas_XI.html">XI</a>
+                        <a class="collapse-item" href="kelas_XII.html">XII</a>
+                    </div>
+                </div>
             </li>
 
-             <!-- Nav Item - History -->
-             <li class="nav-item">
+            <!-- Nav Item - History -->
+            <li class="nav-item">
                 <a class="nav-link" href="historypembayaran.html">
                     <i class="fas fa-fw fa-history"></i>
                     <span>History Pembayaran</span></a>
             </li>
-
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
