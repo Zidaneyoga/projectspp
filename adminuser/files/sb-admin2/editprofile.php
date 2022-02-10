@@ -142,9 +142,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">SMKN 8</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="img/smk8.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -197,12 +197,12 @@
 
                             <div class="form-group">
                                 <label for="username">Nama Sekolah</label>
-                                <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Anda">
+                                <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Baru">
                             </div>
                           
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="text" class="form-control" name="email" placeholder="Masukkan NISN Anda">
+                                <input type="text" class="form-control" name="email" placeholder="Masukkan Email Baru">
                             </div>
 
 
@@ -235,7 +235,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; bayarSPP 2022</span>
                     </div>
                 </div>
             </footer>
