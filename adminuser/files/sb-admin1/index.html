@@ -66,7 +66,7 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="profile_sekolah.html">
-                    <i class="fas fa-fw fa-book"></i>
+                    <i class="fas fa-fw fa-school"></i>
                     <span>Profil Sekolah</span></a>
             </li>
 
