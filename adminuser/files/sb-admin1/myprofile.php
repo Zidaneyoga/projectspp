@@ -67,7 +67,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="profile_sekolah.html">
                     <i class="fas fa-fw fa-book"></i>
-                    <span>Profile Sekolah</span></a>
+                    <span>Profil Sekolah</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
@@ -180,7 +180,7 @@
                         </div>
                         <div class="card-body">
                         <center><div class="col-md-">
-							<img src="img/user.png" class="img-responsive avatar">
+							<img src="img/user.png" class="img-profile rounded-circle">
 						</div><center>
 								<div class="col-md- mt-4">
 									<table class="table table-hover">
