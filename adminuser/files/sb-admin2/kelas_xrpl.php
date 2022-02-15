@@ -225,7 +225,7 @@
                               <label for="" class=" mt-2 mx-5">Kelas</label>
 							                <div class="col-sm-2">
 								                <select class="form-control" name="n">
-																	<option  value="">Pilih Kelas</option>
+                                                <option selected><?php echo "X" ?></option>
                                   <option  value="">X</option>
                                   <option  value="">XI</option>
                                   <option  value="">XII</option>
@@ -235,7 +235,7 @@
                             <label for="" class=" mt-2 mx-5">Jurusan</label>
 							                <div class="col-sm-2">
 								                <select class="form-control" name="n">
-																	<option  value="">Pilih Jurusan</option>
+																	<option selected><?php echo "RPL" ?></option>
                                   <option  value="">RPL</option>
                                   <option  value="">TKJ</option>
                                   <option  value="">ELIN</option>
@@ -243,7 +243,7 @@
 																</select>
 						  	              </div>
 
-                              <a href="kelas_xrpl.php" class="btn btn-primary btn-icon-split mx-5">
+                              <a href="#" class="btn btn-primary btn-icon-split mx-5">
                                 <span class="icon text-white-30">
                                 <i class="fas fa-search"></i>
                                 </span>
@@ -253,7 +253,45 @@
                         </div>
                     </div>
 
-                    
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="m-0 font-weight-bold text-primary">Data Pembayaran SPP Kelas X RPL</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead class="text-center thead-light">
+                                        <tr>
+                                            <th scope="col">Nama Siswa</th>
+                                            <th scope="col">NISN</th>
+                                            <th scope="col">Bulan Bayar</th>
+                                            <th scope="col">Tanggal Pembayaran</th>
+                                            <th scope="col">Jumlah Bayar</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Aksi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bagas</td>
+                                            <td class="text-center">4144</td>
+                                            <td>September</td>
+                                            <th class="text-center">12-09-2020</th>
+                                            <td>Rp 100.000,00</td>
+                                            <td class="text-center">Lunas</td>
+                                            <td><center>
+                                                
+                                                <a href="editbayar.html" class="btn btn-warning float-left "><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-danger delete"><i class="fa fa-trash"></i></a>
+                              
+
+                                                <center></td>
+                                        </tr>                
+                                    </tbody>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <!-- /.container-fluid -->
