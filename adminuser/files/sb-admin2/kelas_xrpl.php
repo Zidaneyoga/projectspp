@@ -279,13 +279,23 @@
                                             <th class="text-center">12-09-2020</th>
                                             <td>Rp 100.000,00</td>
                                             <td class="text-center">Lunas</td>
-                                            <td><center>
+                                            <td class="text-center">
                                                 
-                                                <a href="editbayar.html" class="btn btn-warning float-left "><i class="fa fa-edit"></i></a>
-                                                <a href="#" class="btn btn-danger delete"><i class="fa fa-trash"></i></a>
+                                            <a href="edit_siswa.html" class="btn btn-warning btn-icon-split mx-2">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-edit"></i>
+                                                    </span>
+                                                <span class="text">edit</span>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-trash"></i>
+                                                    </span>
+                                                <span class="text">hapus</span>
+                                                </a>
                               
 
-                                                <center></td>
+                                                </td>
                                         </tr>                
                                     </tbody>
                                     </table>
