@@ -87,6 +87,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Pembayaran kelas:</h6>
+                        <a class="collapse-item" href="setting_pembayaran.html">setting</a>
                         <a class="collapse-item" href="kelas_X.html">X</a>
                         <a class="collapse-item" href="kelas_XI.html">XI</a>
                         <a class="collapse-item" href="kelas_XII.html">XII</a>
