@@ -232,7 +232,7 @@
 											<tr>
 												<td>Email</td>
 												<td>:</td>
-												<td>freedomcode.sch.id</td>
+												<td>asta@smkn8malang.sch.id</td>
 											</tr>
 									    </tbody>
 									</table>
