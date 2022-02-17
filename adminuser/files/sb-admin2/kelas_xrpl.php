@@ -208,54 +208,9 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Filter Data Pembayaran Siswa</h6>
-                        </div>
-                        <div class="card-body">
-                          <div class="form-group row">
-                            <label for="" class=" control-label mt-2 mx-5">Tahun Ajaran</label>
-							                <div class="">
-								                <select class="form-control " name="n">
-																	<option  value="1">2020/2021</option>
-																</select>
-							                </div>
-
-                              <label for="" class=" mt-2 mx-5">Kelas</label>
-							                <div class="col-sm-2">
-								                <select class="form-control" name="n">
-                                                <option selected><?php echo "X" ?></option>
-                                  <option  value="">X</option>
-                                  <option  value="">XI</option>
-                                  <option  value="">XII</option>
-																</select>
-						  	              </div>
-
-                            <label for="" class=" mt-2 mx-5">Jurusan</label>
-							                <div class="col-sm-2">
-								                <select class="form-control" name="n">
-																	<option selected><?php echo "RPL" ?></option>
-                                  <option  value="">RPL</option>
-                                  <option  value="">TKJ</option>
-                                  <option  value="">ELIN</option>
-                                  <option  value="">MEKATRONIKA</option>
-																</select>
-						  	              </div>
-
-                              <a href="#" class="btn btn-primary btn-icon-split mx-5">
-                                <span class="icon text-white-30">
-                                <i class="fas fa-search"></i>
-                                </span>
-                                <span class="text">Cari</span>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h5 class="m-0 font-weight-bold text-primary">Data Pembayaran SPP Kelas X RPL</h5>
+                            <h5 class="m-0 font-weight-bold text-primary">Data Pembayaran SPP Kelas X</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -264,6 +219,7 @@
                                         <tr>
                                             <th scope="col">Nama Siswa</th>
                                             <th scope="col">NISN</th>
+                                            <th scope="col">Kelas</th>
                                             <th scope="col">Bulan Bayar</th>
                                             <th scope="col">Tanggal Pembayaran</th>
                                             <th scope="col">Jumlah Bayar</th>
@@ -275,6 +231,7 @@
                                         <tr>
                                             <td>Bagas</td>
                                             <td class="text-center">4144</td>
+                                            <td class="text-center">X RPL</td>
                                             <td>September</td>
                                             <th class="text-center">12-09-2020</th>
                                             <td>Rp 100.000,00</td>
@@ -296,7 +253,34 @@
                               
 
                                                 </td>
-                                        </tr>                
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Edo</td>
+                                            <td class="text-center">4145</td>
+                                            <td class="text-center">X TKJ</td>
+                                            <td>September</td>
+                                            <th class="text-center">13-08-2020</th>
+                                            <td>Rp 100.000,00</td>
+                                            <td class="text-center">Lunas</td>
+                                            <td class="text-center">
+                                                
+                                            <a href="edit_siswa.html" class="btn btn-warning btn-icon-split mx-2">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-edit"></i>
+                                                    </span>
+                                                <span class="text">edit</span>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-trash"></i>
+                                                    </span>
+                                                <span class="text">hapus</span>
+                                                </a>
+                              
+
+                                                </td>
+                                        </tr>
                                     </tbody>
                                     </table>
                             </div>
