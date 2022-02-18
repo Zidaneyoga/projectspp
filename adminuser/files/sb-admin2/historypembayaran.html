@@ -199,136 +199,32 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <div class="col-xl-20 col-lg-12 col-md-9">
-
-                        <form>
-                            
-                            <div class="container-fluid">
-        
-                                <!-- Page Heading -->
-                                <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">History Pembayaran Siswa</h6>
-                                    </div>
-                                    <div class="card-body">
-                          <div class="form-group row">
-                              <label for="" class=" mt-2 mx-5">Cari Siswa</label>
-							        <div class="col-sm-2">
-								        <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Nama Sekolah">
-                                        <button class="btn btn-primary" type="button">
-                                            <i class="fas fa-search fa-sm"></i>
-                                        </button>
-						  	        </div>
-
-                                
-                                    <a href="dataspp2.html" class="btn btn-primary btn-icon-split mx-4">
-                                        <span class="icon text-white-30">
-                                        <i class="fas fa-search"></i>
-                                        </span>
-                                        <span class="text">Cari</span>
-                                    </a>
-                        </div>
-                        </div>
-                    </div>
+                    
 
                     <!-- Page Heading -->
-                    <div class="col-xl-20 col-lg-12 col-md-9">
-
-                      <form>
-                          
-                          <div class="container-fluid">
-      
-                              <!-- Page Heading -->
-                              <div class="card shadow mb-4">
-                                  <div class="card-header py-3">
-                                      <h6 class="m-0 font-weight-bold text-primary">History Pembayaran Siswa</h6>
-                                  </div>
-                                  <div class="card-body">
-         
-                              <form action="" method="POST" autocomplete="off">
-                                  Cari Siswa <input type="text" name="nisn" placeholder="Cari Berdasarkan NISN" autofocus>
-                                  <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                              </form>
-                                   
-                            <?php
-                            if(isset($_POST['cari'])){
-                                $nisn = $POST['nisn'];
-                                $profilSiswa = mysqli_query($db, "SELECT * FROM siswa
-                                               JOIN kelas ON siswa.id_petugas=petugas.id_petugas
-                                               Join spp ON pembayaran.id_spp=spp.id_spp
-                                               WHERE nisn='$nisn'");
-                                $r_siswa = mysqli_fetch_assoc($profilSiswa);
-                            ?>
-                            <hr />
-                            <!-- Heading -->
-                            <h5>Biodata Siswa</h5>
-                            <table cellpadding="5">
-                                <tr>
-                                    <td>NISN</td>
-                                    <td>:</td>
-                                    <td>07654334567</td>
-                                </tr>
-                                <tr>
-                                    <td>Nama</td>
-                                    <td>:</td>
-                                    <td>Bagas</td>
-                                </tr>
-                                <tr>
-                                    <td>Jenis Kelamin</td>
-                                    <td>:</td>
-                                    <td>Laki-laki</td>
-                                </tr>
-                                <tr>
-                                    <td>Kelas / Jurusan</td>
-                                    <td>:</td>
-                                    <td>XI RPL A</td>
-                                </tr>
-                                <tr>
-                                    <td>Alamat</td>
-                                    <td>:</td>
-                                    <td>Malang</td>
-                                </tr>
-                            </table>
-                            <br>
-                        <hr />
-                        <!-- DataTales Tables -->
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead class="text-center thead-light">
-                                        <tr>
-                                            <th scope="col">No Pembayaran</th>
-                                            <th scope="col">Bulan Bayar</th>
-                                            <th scope="col">Tanggal Pembayaran</th>
-                                            <th scope="col">Jumlah Bayar</th>
-                                            <th scope="col">Sisa Tagihan</th>
-                                            <th scope="col">Status</th>
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center">123456</td>
-                                            <td>September</td>
-                                            <th class="text-center">12-09-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Rp 1.100.000,00</td>
-                                            <td class="text-center">Lunas</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">History Pembayaran Siswa</h6>
                             </div>
+                                <div class="card-body">
+                                    <div class="form-group row">
+                                        <label for="" class=" mt-2 mx-5">Cari Siswa</label>
+                                        <div class="col-sm-4 mr-3">
+                                            <div class="input-group">
+                                                <input type="search" class="form-control" autofocus name="r" placeholder="Cari Siswa Berdasarkan NISN" required>
+                                                <div class="input-group-append">
+                                                    <a href="history.php" class="btn btn-primary" type="button">
+                                                        <i class="fas fa-search fa-sm"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
                         </div>
-                                
-                                  
+
                 </div>
-                <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->

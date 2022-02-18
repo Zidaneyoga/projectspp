@@ -292,31 +292,31 @@
                         </div>
                         <div class="card-body">
                           <div class="form-group row">
-                              <label for="" class=" mt-2 mx-5">Kelas</label>
-							        <div class="col-sm-2">
-								        <select class="form-control" name="n">
-											<option  value="">Pilih Kelas</option>
+                                <label for="" class=" mt-2 mx-5">Kelas</label>
+                                    <div class="col-sm-2">
+                                        <select class="form-control" name="n">
+                                            <option selected><?php echo "XI" ?></option>
                                             <option  value="">X</option>
                                             <option  value="">XI</option>
                                             <option  value="">XII</option>
-										</select>
-						  	        </div>
+                                        </select>
+                                    </div>
 
                                 <label for="" class=" mt-2 mx-5">Jurusan</label>
-							        <div class="col-sm-2">
-								        <select class="form-control" name="n">
-											<option  value="">Pilih Jurusan</option>
+                                    <div class="col-sm-2">
+                                        <select class="form-control" name="n">
+                                            <option selected><?php echo "RPL" ?></option>
                                             <option  value="">RPL</option>
                                             <option  value="">TKJ</option>
                                             <option  value="">ELIN</option>
                                             <option  value="">MEKATRONIKA</option>
-										</select>
-						  	        </div>
+                                        </select>
+                                    </div>
                             
                                 <label for="" class=" mt-2 mx-5">Bulan</label>
 							        <div class="col-sm-2">
 								        <select class="form-control" name="n">
-                                            <option  value="">Pilih Bulan</option>
+                                            <option selected><?php echo "September" ?></option>
                                             <option  value="">Januari</option>
                                             <option  value="">Februari</option>
                                             <option  value="">Maret</option>
@@ -332,7 +332,7 @@
 									    </select>
 						  	        </div>
 
-                                    <a href="kelas_xrpl.php" class="btn btn-primary btn-icon-split mx-4">
+                                    <a href="#" class="btn btn-primary btn-icon-split mx-4">
                                         <span class="icon text-white-30">
                                         <i class="fas fa-search"></i>
                                         </span>

@@ -215,28 +215,28 @@
                         <div class="card-body">
                           <div class="form-group row">
 
-                              <label for="" class=" mt-2 mx-5">Kelas</label>
-							                <div class="col-sm-2">
-								                <select class="form-control" name="n">
-																	<option  value="">Pilih Kelas</option>
-                                  <option  value="">X</option>
-                                  <option  value="">XI</option>
-                                  <option  value="">XII</option>
-																</select>
-						  	              </div>
+                            <label for="" class=" mt-2 mx-5">Kelas</label>
+							    <div class="col-sm-2">
+								    <select class="form-control" name="n">
+                                        <option selected><?php echo "XI" ?></option>
+                                        <option  value="">X</option>
+                                        <option  value="">XI</option>
+                                        <option  value="">XII</option>
+									</select>
+						  	    </div>
 
                             <label for="" class=" mt-2 mx-5">Jurusan</label>
-							                <div class="col-sm-2">
-								                <select class="form-control" name="n">
-																	<option  value="">Pilih Jurusan</option>
-                                  <option  value="">RPL</option>
-                                  <option  value="">TKJ</option>
-                                  <option  value="">ELIN</option>
-                                  <option  value="">MEKATRONIKA</option>
-																</select>
-						  	              </div>
+							    <div class="col-sm-2">
+								    <select class="form-control" name="n">
+                                        <option selected><?php echo "RPL" ?></option>
+                                        <option  value="">RPL</option>
+                                        <option  value="">TKJ</option>
+                                        <option  value="">ELIN</option>
+                                        <option  value="">MEKATRONIKA</option>
+									</select>
+						  	    </div>
 
-                              <a href="datasiswa.php" class="btn btn-primary btn-icon-split mx-5">
+                              <a href="#" class="btn btn-primary btn-icon-split mx-5">
                                 <span class="icon text-white-30">
                                 <i class="fas fa-search"></i>
                                 </span>
@@ -249,6 +249,65 @@
                     
 
                 </div>
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Data Siswa</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Nama Siswa</th>
+                                            <th>NISN</th>
+                                            <th>Jenis Kelamin</th>
+                                            <th>Kelas/Jurusan</th>
+                                            <th>Alamat</th>
+                                            <th>Aksi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bagas</td>
+                                            <td>07654334567 </td>
+                                            <td>Laki-laki</td>
+                                            <td>XI RPL A</td>
+                                            <td>malang</td>
+                                            <td class="text-center">
+                                                <a href="profile_siswa.html" class="btn btn-info btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                        <i class="fas fa-book-reader fa-sm"></i>
+                                                    </span>
+                                                    <span class="text">Detail</span>
+                                                </a>
+                                                <a href="edit_siswa.html" class="btn btn-warning btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-edit"></i>
+                                                    </span>
+                                                <span class="text">edit</span>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-trash"></i>
+                                                    </span>
+                                                <span class="text">hapus</span>
+                                                </a>
+                                                 
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->
