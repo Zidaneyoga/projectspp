@@ -12,14 +12,17 @@
 
     <title>bayarSPP | ADMIN</title>
 
-    <!-- Custom fonts for this template-->
+    <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Custom styles for this template-->
+    <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -31,13 +34,13 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-           <!-- Sidebar - Brand -->
-           <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-            <div class="sidebar-brand-icon rotate-n-15">
-            </div>
-            <img src="img/bayarSPP-5.png" class="main-logo" width="50" alt="Awesome Image" />
-            <div class="sidebar-brand-text mx-3">bayar<i>SPP</i></div>
-           </a>
+             <!-- Sidebar - Brand -->
+             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                </div>
+                <img src="img/bayarSPP-5.png" class="main-logo" width="50" alt="Awesome Image" />
+                <div class="sidebar-brand-text mx-3">bayar<i>SPP</i></div>
+            </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -52,56 +55,59 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Menu
-            </div>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link" href="myprofile.php">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>My Profile</span></a>
-            </li>
+           <!-- Heading -->
+           <div class="sidebar-heading">
+            Menu
+        </div>
 
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Data Siswa</span></a>
-            </li>
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
 
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="dataspp.html">
-                    <i class="fas fa-fw fa-cash-register"></i>
-                    <span>Data Pembayaran</span></a>
-              </li>
+            <a class="nav-link" href="myprofile.php">
+                <i class="fas fa-fw fa-user"></i>
+                <span>My Profile</span></a>
+        </li>
 
-              <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Setting Pembayaran</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Pembayaran kelas:</h6>
-                        <a class="collapse-item" href="setting_pembayaran.html">setting</a>
-                        <a class="collapse-item" href="kelas_X.html">X</a>
-                        <a class="collapse-item" href="kelas_XI.html">XI</a>
-                        <a class="collapse-item" href="kelas_XII.html">XII</a>
-                    </div>
+
+        <!-- Nav Item - Tables -->
+        <li class="nav-item active">
+            <a class="nav-link active" href="tables.html">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Data Siswa</span></a>
+        </li>
+
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+            <a class="nav-link" href="dataspp.html">
+                <i class="fas fa-fw fa-cash-register"></i>
+                <span>Data Pembayaran</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-cog"></i>
+                <span>Setting Pembayaran</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Pembayaran kelas:</h6>
+                    <a class="collapse-item" href="setting_pembayaran.html">setting</a>
+                    <a class="collapse-item" href="kelas_X.html">X</a>
+                    <a class="collapse-item" href="kelas_XI.html">XI</a>
+                    <a class="collapse-item" href="kelas_XII.html">XII</a>
                 </div>
-            </li>
+            </div>
+        </li>
 
-            <!-- Nav Item - History -->
-            <li class="nav-item active">
-                <a class="nav-link active" href="historypembayaran.html">
-                    <i class="fas fa-fw fa-history"></i>
-                    <span>History Pembayaran</span></a>
-            </li>
-
+         <!-- Nav Item - History -->
+         <li class="nav-item">
+            <a class="nav-link" href="historypembayaran.html">
+                <i class="fas fa-fw fa-history"></i>
+                <span>History Pembayaran</span></a>
+        </li>
+        
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -123,15 +129,17 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                    <form class="form-inline">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </form>
 
                     <!-- Topbar Search -->
                     <form
                     class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                     <br>
-                    <p>HISTORY PAYMENT</p> 
+                    <p>DATA STUDENT</p> 
                     </form>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -160,7 +168,6 @@
                             </div>
                         </li>
 
-                        
                         <div class="topbar-divider d-none d-sm-block"></div>
 
                         <!-- Nav Item - User Information -->
@@ -198,135 +205,107 @@
 
                 </nav>
                 <!-- End of Topbar -->
-
-                <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <div class="col-xl-20 col-lg-12 col-md-9">
-
-                        <form>
-                            
-                            <div class="container-fluid">
-        
-                                <!-- Page Heading -->
-                                <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">History Pembayaran Siswa</h6>
-                                    </div>
-                                    <div class="card-body">
+                    <!-- Page Heading -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Filter Data Siswa</h6>
+                        </div>
+                        <div class="card-body">
                           <div class="form-group row">
-                              <label for="" class=" mt-2 mx-5">Cari Siswa</label>
-							        <div class="col-sm-2">
-								        <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Nama Sekolah">
-                                        <button class="btn btn-primary" type="button">
-                                            <i class="fas fa-search fa-sm"></i>
-                                        </button>
-						  	        </div>
 
-                                
-                                    <a href="dataspp2.html" class="btn btn-primary btn-icon-split mx-4">
-                                        <span class="icon text-white-30">
-                                        <i class="fas fa-search"></i>
-                                        </span>
-                                        <span class="text">Cari</span>
-                                    </a>
+                              <label for="" class=" mt-2 mx-5">Kelas</label>
+							                <div class="col-sm-2">
+								                <select class="form-control" name="n">
+																	<option  value="">Pilih Kelas</option>
+                                  <option  value="">X</option>
+                                  <option  value="">XI</option>
+                                  <option  value="">XII</option>
+																</select>
+						  	              </div>
+
+                            <label for="" class=" mt-2 mx-5">Jurusan</label>
+							                <div class="col-sm-2">
+								                <select class="form-control" name="n">
+																	<option  value="">Pilih Jurusan</option>
+                                  <option  value="">RPL</option>
+                                  <option  value="">TKJ</option>
+                                  <option  value="">ELIN</option>
+                                  <option  value="">MEKATRONIKA</option>
+																</select>
+						  	              </div>
+
+                              <a href="kelas_xrpl.php" class="btn btn-primary btn-icon-split mx-5">
+                                <span class="icon text-white-30">
+                                <i class="fas fa-search"></i>
+                                </span>
+                                <span class="text">Cari</span>
+                            </a>
                         </div>
                         </div>
                     </div>
 
-                    <!-- Page Heading -->
-                    <div class="col-xl-20 col-lg-12 col-md-9">
+                    
 
-                      <form>
-                          
-                          <div class="container-fluid">
-      
-                              <!-- Page Heading -->
-                              <div class="card shadow mb-4">
-                                  <div class="card-header py-3">
-                                      <h6 class="m-0 font-weight-bold text-primary">History Pembayaran Siswa</h6>
-                                  </div>
-                                  <div class="card-body">
-         
-                              <form action="" method="POST" autocomplete="off">
-                                  Cari Siswa <input type="text" name="nisn" placeholder="Cari Berdasarkan NISN" autofocus>
-                                  <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                              </form>
-                                   
-                            <?php
-                            if(isset($_POST['cari'])){
-                                $nisn = $POST['nisn'];
-                                $profilSiswa = mysqli_query($db, "SELECT * FROM siswa
-                                               JOIN kelas ON siswa.id_petugas=petugas.id_petugas
-                                               Join spp ON pembayaran.id_spp=spp.id_spp
-                                               WHERE nisn='$nisn'");
-                                $r_siswa = mysqli_fetch_assoc($profilSiswa);
-                            ?>
-                            <hr />
-                            <!-- Heading -->
-                            <h5>Biodata Siswa</h5>
-                            <table cellpadding="5">
-                                <tr>
-                                    <td>NISN</td>
-                                    <td>:</td>
-                                    <td>07654334567</td>
-                                </tr>
-                                <tr>
-                                    <td>Nama</td>
-                                    <td>:</td>
-                                    <td>Bagas</td>
-                                </tr>
-                                <tr>
-                                    <td>Jenis Kelamin</td>
-                                    <td>:</td>
-                                    <td>Laki-laki</td>
-                                </tr>
-                                <tr>
-                                    <td>Kelas / Jurusan</td>
-                                    <td>:</td>
-                                    <td>XI RPL A</td>
-                                </tr>
-                                <tr>
-                                    <td>Alamat</td>
-                                    <td>:</td>
-                                    <td>Malang</td>
-                                </tr>
-                            </table>
-                            <br>
-                        <hr />
-                        <!-- DataTales Tables -->
+                </div>
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Data Siswa</h6>
+                        </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead class="text-center thead-light">
-                                        <tr>
-                                            <th scope="col">No Pembayaran</th>
-                                            <th scope="col">Bulan Bayar</th>
-                                            <th scope="col">Tanggal Pembayaran</th>
-                                            <th scope="col">Jumlah Bayar</th>
-                                            <th scope="col">Sisa Tagihan</th>
-                                            <th scope="col">Status</th>
-
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Nama Siswa</th>
+                                            <th>NISN</th>
+                                            <th>Jenis Kelamin</th>
+                                            <th>Kelas/Jurusan</th>
+                                            <th>Alamat</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="text-center">123456</td>
-                                            <td>September</td>
-                                            <th class="text-center">12-09-2020</th>
-                                            <td>Rp 100.000,00</td>
-                                            <td>Rp 1.100.000,00</td>
-                                            <td class="text-center">Lunas</td>
+                                            <td>Bagas</td>
+                                            <td>07654334567 </td>
+                                            <td>Laki-laki</td>
+                                            <td>IX RPL A</td>
+                                            <td>malang</td>
+                                            <td class="text-center">
+                                                <a href="profile_siswa.html" class="btn btn-info btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                        <i class="fas fa-book-reader fa-sm"></i>
+                                                    </span>
+                                                    <span class="text">Detail</span>
+                                                </a>
+                                                <a href="edit_siswa.html" class="btn btn-warning btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-edit"></i>
+                                                    </span>
+                                                <span class="text">edit</span>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-icon-split">
+                                                    <span class="icon text-white-30">
+                                                    <i class="fas fa-trash"></i>
+                                                    </span>
+                                                <span class="text">hapus</span>
+                                                </a>
+                                                 
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                                
-                                  
+                    </div>
+
                 </div>
                 <!-- /.container-fluid -->
 
@@ -373,7 +352,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -383,6 +362,13 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
