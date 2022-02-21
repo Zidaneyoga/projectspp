@@ -294,19 +294,20 @@
                                         <th scope="col">Bulan Bayar</th>
                                         <th scope="col">Tanggal Pembayaran</th>
                                         <th scope="col">Jumlah Bayar</th>
-                                        <th scope="col">Sisa Tagihan</th>
                                         <th scope="col">Status</th>
+                                        <th scope="col">Sisa Tagihan</th>
 
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="text-center">123456</td>
-                                        <td>September</td>
+                                        <td class="text-center">September</td>
                                         <th class="text-center">12-09-2020</th>
-                                        <td>Rp 100.000,00</td>
-                                        <td>Rp 1.100.000,00</td>
-                                        <td class="text-center">Lunas</td>
+                                        <th class="text-center">Rp 100.000,00</th>
+                                        <th class="text-center">Lunas</td>
+                                        <th class="text-center">Rp 1.100.000,00</th>
+                                        
                                     </tr>
                                 </tbody>
                             </table>
